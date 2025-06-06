@@ -1,0 +1,202 @@
+
+
+
+
+
+
+
+
+{
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	},{
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	},{
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	},{
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	},{
+		"path": "pages/user-info/userinfo",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	},{
+		"path": "pages/recharge/recharge",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "充值"
+		}
+	}
+ 	,{
+		"path": "pages/address/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "添加地址"
+		}
+	},{
+		"path": "pages/address/list",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的地址"
+		}
+	}
+	,{
+		"path": "pages/goods/list",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "展柜设计展示"
+		}
+	},{
+		"path": "pages/goods/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "展柜设计添加"
+		}
+	},{
+		"path": "pages/goods/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "展柜设计添加"
+		}
+	}	,{
+		"path": "pages/goodsLiuyan/list",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "评价展示"
+		}
+	},{
+		"path": "pages/goodsLiuyan/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "评价展示"
+		}
+	},{
+		"path": "pages/goodsLiuyan/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "评价添加"
+		}
+	}	,{
+		"path": "pages/goodsOrder/list",
+		"style": {
+			"navigationBarTitleText": "展柜订单"
+		}
+	},{
+		"path": "pages/goodsOrder/confirm",
+		"style": {
+			"navigationBarTitleText": "订单确认"
+		}
+	}
+	,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "公告展示"
+		}
+	},{
+		"path": "pages/news/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "公告展示"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "公告添加"
+		}
+	}	,{
+		"path": "pages/yonghu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户展示"
+		}
+	},{
+		"path": "pages/yonghu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户添加"
+		}
+	},{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#990033",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "zhanguishejigongsipingmianbuzhi",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#FFFFFF",
+		"selectedColor": "#FFEA00",
+		"borderStyle": "black",
+		"backgroundColor": "#990033",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			,{
+			 	"pagePath": "pages/goods/list",
+				"iconPath": "static/tabs/type1.png",
+			 	"selectedIconPath": "static/tabs/type1.png",
+				"text": "展柜设计"
+			}
+			,{
+				"pagePath": "pages/goodsOrder/list",
+				"iconPath": "static/tabs/order1.png",
+				"selectedIconPath": "static/tabs/order1.png",
+				"text": "展柜订单"
+			}
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
